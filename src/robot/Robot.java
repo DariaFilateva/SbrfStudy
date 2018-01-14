@@ -1,5 +1,7 @@
 package robot;
 
+import java.nio.file.Paths;
+
 /**
  * Created by Dasha on 13.01.2018.
  */
@@ -53,5 +55,6 @@ public class Robot {
         if (this.direction == Direction.UP) y += 1;
         if (this.direction == Direction.RIGHT) x = x + 1;
         if (this.direction == Direction.LEFT) x -= 1;
+
     }
 }
