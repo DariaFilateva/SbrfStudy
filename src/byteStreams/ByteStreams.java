@@ -37,7 +37,6 @@ public class ByteStreams {
     public static void main(String[] args) throws IOException {
         ByteArrayInputStream bytes = new ByteArrayInputStream(new byte[]{0x33, 0x45, 0x01});
         ByteArrayInputStream bytes0 = new ByteArrayInputStream(new byte[]{});
-
         System.out.println(checkSumOfStream(bytes));
         System.out.println(checkSumOfStream(bytes0));
     }
