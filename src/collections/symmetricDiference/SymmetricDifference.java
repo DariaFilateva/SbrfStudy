@@ -1,4 +1,4 @@
-package collections.testForQuestion.symmetricDiference;
+package collections.symmetricDiference;
 
 import java.util.HashSet;
 import java.util.Set;
